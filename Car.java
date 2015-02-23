@@ -1,5 +1,3 @@
-/* Brian Capouch Car class demo for CMP112 */
-
 public class Car {
 	public String make;
 	public int year;
@@ -12,6 +10,7 @@ Car () {
 	}
 
 Car (String thisMake) {
+	this();
 	make = thisMake;
 	}
 
